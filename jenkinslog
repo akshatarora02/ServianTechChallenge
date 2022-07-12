@@ -1,0 +1,718 @@
+Started by user [8mha:////4OicZYUhkij4M+Av+q2hSvT87ZlD6o5w5d7OZrFeUxd/AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9xJTczDwA4LbuW8AAAAA=[0mAkshat Arora
+Obtained Jenkinsfile from git https://github.com/akshatarora02/ServianTechChallenge.git
+[8mha:////4H0YKYpeL/hksmVgCQC0zxAy0TncIjwMW21u6DjVXDjPAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4IRT/Si3+KU47kB/DPuLRLbObor4JtJMzZhpsvHe6BpkAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4FHdH8dmi8TrGwPInjvmX0GrD1Iign5rR9B++UwBK31VAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/environment_setup
+[8mha:////4LWZm/m3LO7YH4eKFunUafG1iOiE4PiIWdfUEFtVccmKAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4OzkDieV/eiT74uDfaseGZVnK9s7ME1Us91bTXZFF3RhAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4On8widmICNJZmYCFORSvHK34KKfj+P7hUDtiGy7gvZhAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4O2g412yHb10YPA6boVPdXcG4gQ4qlHkPefOOWfmrf1DAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/environment_setup/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/akshatarora02/ServianTechChallenge.git # timeout=10
+Fetching upstream changes from https://github.com/akshatarora02/ServianTechChallenge.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.0'
+ > git fetch --tags --force --progress -- https://github.com/akshatarora02/ServianTechChallenge.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse origin/main^{commit} # timeout=10
+Checking out Revision f665e97abca2d58ed3b725244607f88c88b255f8 (origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f665e97abca2d58ed3b725244607f88c88b255f8 # timeout=10
+Commit message: "Added Jenkinsfile"
+ > git rev-list --no-walk 9bb5ec7a7cba34a68c9ee3f79b610bcbfcfa51fc # timeout=10
+[8mha:////4N2u+hvHTKx5/5BBhP7YpzycJOB8M7j2WcsLydwHNWwlAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4B1BGVY9bE8N8fgzGnRZuoJeFzFKrLfNHlhnka1SSizBAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4C/yOhM3RnrJiR1geMShwWNIdvc3EPv6MbyU02Ha7EWTAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4Jr+Dr+FSYRPCRnviai7lNqNWrl/vnDWunUwN5QBtxmhAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4GzrATs5i4KqgOC3mYjvOl+uxm1a/PmmAi6SIRvNr4s3AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] withCredentials
+WARNING: Unknown parameter(s) found for class type 'com.cloudbees.jenkins.plugins.awscredentials.AmazonWebServicesCredentialsBinding': keyIdVariable,secretVariable
+Masking supported pattern matches of $AWS_ACCESS_KEY_ID or $AWS_SECRET_ACCESS_KEY
+[8mha:////4MZ2/LXUA3CCAB878eqy3Bk+OXUEwTqqGtHa0andX8qzAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] {
+[8mha:////4H59f1/PZ5IHNwayX6Ej9DWlIpwJrBQM2m4dLDKBfVzYAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] withEnv
+[8mha:////4N7tlCdjS6lviadCQGC0Cyz/gBsQXDD6/+VcxznWkEOiAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4CvPy82td8m4ponGvSoB1DYnnEhp/NtA/PVzjL6sv0zDAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] stage
+[8mha:////4M8v1zndptTeSb/aBheNg4pCN6+xFvj/E6yuE4SYMbXMAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Init)
+[8mha:////4AaMGIV6pkqbJMUjroHC09lvOVlP0JPEbhz10dYomT51AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] sh
++ make init
+docker-compose run terraform init
+
+[0m[1mInitializing the backend...[0m
+
+[0m[1mInitializing provider plugins...[0m
+- Reusing previous version of hashicorp/aws from the dependency lock file
+- Using previously-installed hashicorp/aws v3.75.2
+
+[0m[1m[32mTerraform has been successfully initialized![0m[32m[0m
+[0m[32m
+You may now begin working with Terraform. Try running "terraform plan" to see
+any changes that are required for your infrastructure. All Terraform commands
+should now work.
+
+If you ever set or change modules or backend configuration for Terraform,
+rerun this command to reinitialize your working directory. If you forget, other
+commands will detect it and remind you to do so if necessary.[0m
+[8mha:////4PehCf8SJPDrU0252nu3dhK5RxscqSE8wGu9Y2rsfvwvAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N9Jjga++AAAA[0m[Pipeline] }
+[8mha:////4Ac1zegGLfotN0zZt+Dp8Qz17gi1IvYculG8aa21J/N2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFDQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AERGGHOvgAAAA==[0m[Pipeline] // stage
+[8mha:////4G5+w8uruxYj4/VuTdOasS0P4uTkgHVTycqQ038ENw1eAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohURWJCTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFs9tl2zedZvQHeFw+cwgAAAA==[0m[Pipeline] stage
+[8mha:////4DFnSh5W7SGnkdYX+p++6zU8cqcp5j8YlwtLU9BWa/dKAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] { (Plan)
+[8mha:////4IuQMWOKkVoFyt0gHYZhwxHez16bZz+L87PoaoLuR7FtAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] sh
++ make plan
+docker-compose run terraform plan -out terraform.plan
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  [32m+[0m create
+[0m
+Terraform will perform the following actions:
+
+[1m  # aws_cloudwatch_log_group.default[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_cloudwatch_log_group" "default" {
+      [32m+[0m [0m[1m[0marn[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0mid[0m[0m                = (known after apply)
+      [32m+[0m [0m[1m[0mname[0m[0m              = "/ecs/servian-tech-challenge"
+      [32m+[0m [0m[1m[0mretention_in_days[0m[0m = 7
+      [32m+[0m [0m[1m[0mtags_all[0m[0m          = (known after apply)
+    }
+
+[1m  # aws_ecs_cluster.app[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_ecs_cluster" "app" {
+      [32m+[0m [0m[1m[0marn[0m[0m                = (known after apply)
+      [32m+[0m [0m[1m[0mcapacity_providers[0m[0m = (known after apply)
+      [32m+[0m [0m[1m[0mid[0m[0m                 = (known after apply)
+      [32m+[0m [0m[1m[0mname[0m[0m               = "servian-tech-challenge-app"
+      [32m+[0m [0m[1m[0mtags_all[0m[0m           = (known after apply)
+
+      [32m+[0m [0mdefault_capacity_provider_strategy {
+          [32m+[0m [0m[1m[0mbase[0m[0m              = (known after apply)
+          [32m+[0m [0m[1m[0mcapacity_provider[0m[0m = (known after apply)
+          [32m+[0m [0m[1m[0mweight[0m[0m            = (known after apply)
+        }
+
+      [32m+[0m [0msetting {
+          [32m+[0m [0m[1m[0mname[0m[0m  = (known after apply)
+          [32m+[0m [0m[1m[0mvalue[0m[0m = (known after apply)
+        }
+    }
+
+[1m  # aws_ecs_service.app[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_ecs_service" "app" {
+      [32m+[0m [0m[1m[0mcluster[0m[0m                            = (known after apply)
+      [32m+[0m [0m[1m[0mdeployment_maximum_percent[0m[0m         = 200
+      [32m+[0m [0m[1m[0mdeployment_minimum_healthy_percent[0m[0m = 100
+      [32m+[0m [0m[1m[0mdesired_count[0m[0m                      = 2
+      [32m+[0m [0m[1m[0menable_ecs_managed_tags[0m[0m            = false
+      [32m+[0m [0m[1m[0menable_execute_command[0m[0m             = false
+      [32m+[0m [0m[1m[0miam_role[0m[0m                           = (known after apply)
+      [32m+[0m [0m[1m[0mid[0m[0m                                 = (known after apply)
+      [32m+[0m [0m[1m[0mlaunch_type[0m[0m                        = "FARGATE"
+      [32m+[0m [0m[1m[0mname[0m[0m                               = "app"
+      [32m+[0m [0m[1m[0mplatform_version[0m[0m                   = (known after apply)
+      [32m+[0m [0m[1m[0mscheduling_strategy[0m[0m                = "REPLICA"
+      [32m+[0m [0m[1m[0mtags_all[0m[0m                           = (known after apply)
+      [32m+[0m [0m[1m[0mtask_definition[0m[0m                    = (known after apply)
+      [32m+[0m [0m[1m[0mwait_for_steady_state[0m[0m              = false
+
+      [32m+[0m [0mload_balancer {
+          [32m+[0m [0m[1m[0mcontainer_name[0m[0m   = "app"
+          [32m+[0m [0m[1m[0mcontainer_port[0m[0m   = 3000
+          [32m+[0m [0m[1m[0mtarget_group_arn[0m[0m = (known after apply)
+        }
+
+      [32m+[0m [0mnetwork_configuration {
+          [32m+[0m [0m[1m[0massign_public_ip[0m[0m = true
+          [32m+[0m [0m[1m[0msecurity_groups[0m[0m  = (known after apply)
+          [32m+[0m [0m[1m[0msubnets[0m[0m          = [
+              [32m+[0m [0m"subnet-0cc3ba82e07e833ac",
+              [32m+[0m [0m"subnet-0dc2d79cee7492948",
+              [32m+[0m [0m"subnet-0f1526b4a6035c61b",
+            ]
+        }
+    }
+
+[1m  # aws_ecs_task_definition.app[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_ecs_task_definition" "app" {
+      [32m+[0m [0m[1m[0marn[0m[0m                      = (known after apply)
+      [32m+[0m [0m[1m[0mcontainer_definitions[0m[0m    = (sensitive)
+      [32m+[0m [0m[1m[0mcpu[0m[0m                      = "256"
+      [32m+[0m [0m[1m[0mexecution_role_arn[0m[0m       = (known after apply)
+      [32m+[0m [0m[1m[0mfamily[0m[0m                   = "servian-tech-challenge"
+      [32m+[0m [0m[1m[0mid[0m[0m                       = (known after apply)
+      [32m+[0m [0m[1m[0mmemory[0m[0m                   = "512"
+      [32m+[0m [0m[1m[0mnetwork_mode[0m[0m             = "awsvpc"
+      [32m+[0m [0m[1m[0mrequires_compatibilities[0m[0m = [
+          [32m+[0m [0m"FARGATE",
+        ]
+      [32m+[0m [0m[1m[0mrevision[0m[0m                 = (known after apply)
+      [32m+[0m [0m[1m[0mskip_destroy[0m[0m             = false
+      [32m+[0m [0m[1m[0mtags_all[0m[0m                 = (known after apply)
+    }
+
+[1m  # aws_iam_role.ecs_tasks_execution_role[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_iam_role" "ecs_tasks_execution_role" {
+      [32m+[0m [0m[1m[0marn[0m[0m                   = (known after apply)
+      [32m+[0m [0m[1m[0massume_role_policy[0m[0m    = jsonencode(
+            {
+              [32m+[0m [0mStatement = [
+                  [32m+[0m [0m{
+                      [32m+[0m [0mAction    = "sts:AssumeRole"
+                      [32m+[0m [0mEffect    = "Allow"
+                      [32m+[0m [0mPrincipal = {
+                          [32m+[0m [0mService = "ecs-tasks.amazonaws.com"
+                        }
+                      [32m+[0m [0mSid       = ""
+                    },
+                ]
+              [32m+[0m [0mVersion   = "2012-10-17"
+            }
+        )
+      [32m+[0m [0m[1m[0mcreate_date[0m[0m           = (known after apply)
+      [32m+[0m [0m[1m[0mforce_detach_policies[0m[0m = false
+      [32m+[0m [0m[1m[0mid[0m[0m                    = (known after apply)
+      [32m+[0m [0m[1m[0mmanaged_policy_arns[0m[0m   = (known after apply)
+      [32m+[0m [0m[1m[0mmax_session_duration[0m[0m  = 3600
+      [32m+[0m [0m[1m[0mname[0m[0m                  = "servian-tech-challenge-ecs-task-execution-role"
+      [32m+[0m [0m[1m[0mname_prefix[0m[0m           = (known after apply)
+      [32m+[0m [0m[1m[0mpath[0m[0m                  = "/"
+      [32m+[0m [0m[1m[0mtags_all[0m[0m              = (known after apply)
+      [32m+[0m [0m[1m[0munique_id[0m[0m             = (known after apply)
+
+      [32m+[0m [0minline_policy {
+          [32m+[0m [0m[1m[0mname[0m[0m   = (known after apply)
+          [32m+[0m [0m[1m[0mpolicy[0m[0m = (known after apply)
+        }
+    }
+
+[1m  # aws_iam_role_policy_attachment.ecs_tasks_execution_role[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_iam_role_policy_attachment" "ecs_tasks_execution_role" {
+      [32m+[0m [0m[1m[0mid[0m[0m         = (known after apply)
+      [32m+[0m [0m[1m[0mpolicy_arn[0m[0m = "arn:aws:iam::aws:policy/service-role/AmazonECSTaskExecutionRolePolicy"
+      [32m+[0m [0m[1m[0mrole[0m[0m       = "servian-tech-challenge-ecs-task-execution-role"
+    }
+
+[1m  # aws_lb.app[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_lb" "app" {
+      [32m+[0m [0m[1m[0marn[0m[0m                        = (known after apply)
+      [32m+[0m [0m[1m[0marn_suffix[0m[0m                 = (known after apply)
+      [32m+[0m [0m[1m[0mdesync_mitigation_mode[0m[0m     = "defensive"
+      [32m+[0m [0m[1m[0mdns_name[0m[0m                   = (known after apply)
+      [32m+[0m [0m[1m[0mdrop_invalid_header_fields[0m[0m = false
+      [32m+[0m [0m[1m[0menable_deletion_protection[0m[0m = false
+      [32m+[0m [0m[1m[0menable_http2[0m[0m               = true
+      [32m+[0m [0m[1m[0menable_waf_fail_open[0m[0m       = false
+      [32m+[0m [0m[1m[0mid[0m[0m                         = (known after apply)
+      [32m+[0m [0m[1m[0midle_timeout[0m[0m               = 60
+      [32m+[0m [0m[1m[0minternal[0m[0m                   = false
+      [32m+[0m [0m[1m[0mip_address_type[0m[0m            = (known after apply)
+      [32m+[0m [0m[1m[0mload_balancer_type[0m[0m         = "application"
+      [32m+[0m [0m[1m[0mname[0m[0m                       = "servian-tech-challenge-lb"
+      [32m+[0m [0m[1m[0msecurity_groups[0m[0m            = (known after apply)
+      [32m+[0m [0m[1m[0msubnets[0m[0m                    = [
+          [32m+[0m [0m"subnet-0cc3ba82e07e833ac",
+          [32m+[0m [0m"subnet-0dc2d79cee7492948",
+          [32m+[0m [0m"subnet-0f1526b4a6035c61b",
+        ]
+      [32m+[0m [0m[1m[0mtags_all[0m[0m                   = (known after apply)
+      [32m+[0m [0m[1m[0mvpc_id[0m[0m                     = (known after apply)
+      [32m+[0m [0m[1m[0mzone_id[0m[0m                    = (known after apply)
+
+      [32m+[0m [0msubnet_mapping {
+          [32m+[0m [0m[1m[0mallocation_id[0m[0m        = (known after apply)
+          [32m+[0m [0m[1m[0mipv6_address[0m[0m         = (known after apply)
+          [32m+[0m [0m[1m[0moutpost_id[0m[0m           = (known after apply)
+          [32m+[0m [0m[1m[0mprivate_ipv4_address[0m[0m = (known after apply)
+          [32m+[0m [0m[1m[0msubnet_id[0m[0m            = (known after apply)
+        }
+    }
+
+[1m  # aws_lb_listener.app_80[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_lb_listener" "app_80" {
+      [32m+[0m [0m[1m[0marn[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0mid[0m[0m                = (known after apply)
+      [32m+[0m [0m[1m[0mload_balancer_arn[0m[0m = (known after apply)
+      [32m+[0m [0m[1m[0mport[0m[0m              = 80
+      [32m+[0m [0m[1m[0mprotocol[0m[0m          = "HTTP"
+      [32m+[0m [0m[1m[0mssl_policy[0m[0m        = (known after apply)
+      [32m+[0m [0m[1m[0mtags_all[0m[0m          = (known after apply)
+
+      [32m+[0m [0mdefault_action {
+          [32m+[0m [0m[1m[0morder[0m[0m            = (known after apply)
+          [32m+[0m [0m[1m[0mtarget_group_arn[0m[0m = (known after apply)
+          [32m+[0m [0m[1m[0mtype[0m[0m             = "forward"
+        }
+    }
+
+[1m  # aws_lb_target_group.app[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_lb_target_group" "app" {
+      [32m+[0m [0m[1m[0marn[0m[0m                                = (known after apply)
+      [32m+[0m [0m[1m[0marn_suffix[0m[0m                         = (known after apply)
+      [32m+[0m [0m[1m[0mconnection_termination[0m[0m             = false
+      [32m+[0m [0m[1m[0mderegistration_delay[0m[0m               = "300"
+      [32m+[0m [0m[1m[0mid[0m[0m                                 = (known after apply)
+      [32m+[0m [0m[1m[0mlambda_multi_value_headers_enabled[0m[0m = false
+      [32m+[0m [0m[1m[0mload_balancing_algorithm_type[0m[0m      = (known after apply)
+      [32m+[0m [0m[1m[0mname[0m[0m                               = "servian-tech-challenge-tg"
+      [32m+[0m [0m[1m[0mport[0m[0m                               = 3000
+      [32m+[0m [0m[1m[0mpreserve_client_ip[0m[0m                 = (known after apply)
+      [32m+[0m [0m[1m[0mprotocol[0m[0m                           = "HTTP"
+      [32m+[0m [0m[1m[0mprotocol_version[0m[0m                   = (known after apply)
+      [32m+[0m [0m[1m[0mproxy_protocol_v2[0m[0m                  = false
+      [32m+[0m [0m[1m[0mslow_start[0m[0m                         = 0
+      [32m+[0m [0m[1m[0mtags_all[0m[0m                           = (known after apply)
+      [32m+[0m [0m[1m[0mtarget_type[0m[0m                        = "ip"
+      [32m+[0m [0m[1m[0mvpc_id[0m[0m                             = "vpc-06053c2093a10c09c"
+
+      [32m+[0m [0mhealth_check {
+          [32m+[0m [0m[1m[0menabled[0m[0m             = true
+          [32m+[0m [0m[1m[0mhealthy_threshold[0m[0m   = 3
+          [32m+[0m [0m[1m[0minterval[0m[0m            = 30
+          [32m+[0m [0m[1m[0mmatcher[0m[0m             = (known after apply)
+          [32m+[0m [0m[1m[0mpath[0m[0m                = "/healthcheck"
+          [32m+[0m [0m[1m[0mport[0m[0m                = "traffic-port"
+          [32m+[0m [0m[1m[0mprotocol[0m[0m            = "HTTP"
+          [32m+[0m [0m[1m[0mtimeout[0m[0m             = (known after apply)
+          [32m+[0m [0m[1m[0munhealthy_threshold[0m[0m = 3
+        }
+
+      [32m+[0m [0mstickiness {
+          [32m+[0m [0m[1m[0mcookie_duration[0m[0m = (known after apply)
+          [32m+[0m [0m[1m[0mcookie_name[0m[0m     = (known after apply)
+          [32m+[0m [0m[1m[0menabled[0m[0m         = (known after apply)
+          [32m+[0m [0m[1m[0mtype[0m[0m            = (known after apply)
+        }
+    }
+
+[1m  # aws_rds_cluster.postgres[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_rds_cluster" "postgres" {
+      [32m+[0m [0m[1m[0mapply_immediately[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0marn[0m[0m                             = (known after apply)
+      [32m+[0m [0m[1m[0mavailability_zones[0m[0m              = [
+          [32m+[0m [0m"ap-southeast-2a",
+          [32m+[0m [0m"ap-southeast-2b",
+          [32m+[0m [0m"ap-southeast-2c",
+        ]
+      [32m+[0m [0m[1m[0mbackup_retention_period[0m[0m         = 1
+      [32m+[0m [0m[1m[0mcluster_identifier[0m[0m              = "servian-tech-challenge-db"
+      [32m+[0m [0m[1m[0mcluster_identifier_prefix[0m[0m       = (known after apply)
+      [32m+[0m [0m[1m[0mcluster_members[0m[0m                 = (known after apply)
+      [32m+[0m [0m[1m[0mcluster_resource_id[0m[0m             = (known after apply)
+      [32m+[0m [0m[1m[0mcopy_tags_to_snapshot[0m[0m           = false
+      [32m+[0m [0m[1m[0mdatabase_name[0m[0m                   = "app"
+      [32m+[0m [0m[1m[0mdb_cluster_parameter_group_name[0m[0m = (known after apply)
+      [32m+[0m [0m[1m[0mdb_subnet_group_name[0m[0m            = (known after apply)
+      [32m+[0m [0m[1m[0mdeletion_protection[0m[0m             = false
+      [32m+[0m [0m[1m[0menable_global_write_forwarding[0m[0m  = false
+      [32m+[0m [0m[1m[0menable_http_endpoint[0m[0m            = false
+      [32m+[0m [0m[1m[0mendpoint[0m[0m                        = (known after apply)
+      [32m+[0m [0m[1m[0mengine[0m[0m                          = "aurora-postgresql"
+      [32m+[0m [0m[1m[0mengine_mode[0m[0m                     = "provisioned"
+      [32m+[0m [0m[1m[0mengine_version[0m[0m                  = "14.3"
+      [32m+[0m [0m[1m[0mengine_version_actual[0m[0m           = (known after apply)
+      [32m+[0m [0m[1m[0mhosted_zone_id[0m[0m                  = (known after apply)
+      [32m+[0m [0m[1m[0miam_roles[0m[0m                       = (known after apply)
+      [32m+[0m [0m[1m[0mid[0m[0m                              = (known after apply)
+      [32m+[0m [0m[1m[0mkms_key_id[0m[0m                      = (known after apply)
+      [32m+[0m [0m[1m[0mmaster_password[0m[0m                 = (sensitive value)
+      [32m+[0m [0m[1m[0mmaster_username[0m[0m                 = "postgres"
+      [32m+[0m [0m[1m[0mport[0m[0m                            = (known after apply)
+      [32m+[0m [0m[1m[0mpreferred_backup_window[0m[0m         = (known after apply)
+      [32m+[0m [0m[1m[0mpreferred_maintenance_window[0m[0m    = (known after apply)
+      [32m+[0m [0m[1m[0mreader_endpoint[0m[0m                 = (known after apply)
+      [32m+[0m [0m[1m[0mskip_final_snapshot[0m[0m             = true
+      [32m+[0m [0m[1m[0mstorage_encrypted[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0mtags_all[0m[0m                        = (known after apply)
+      [32m+[0m [0m[1m[0mvpc_security_group_ids[0m[0m          = (known after apply)
+    }
+
+[1m  # aws_rds_cluster_instance.cluster_instances[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_rds_cluster_instance" "cluster_instances" {
+      [32m+[0m [0m[1m[0mapply_immediately[0m[0m                     = (known after apply)
+      [32m+[0m [0m[1m[0marn[0m[0m                                   = (known after apply)
+      [32m+[0m [0m[1m[0mauto_minor_version_upgrade[0m[0m            = true
+      [32m+[0m [0m[1m[0mavailability_zone[0m[0m                     = (known after apply)
+      [32m+[0m [0m[1m[0mca_cert_identifier[0m[0m                    = (known after apply)
+      [32m+[0m [0m[1m[0mcluster_identifier[0m[0m                    = (known after apply)
+      [32m+[0m [0m[1m[0mcopy_tags_to_snapshot[0m[0m                 = false
+      [32m+[0m [0m[1m[0mdb_parameter_group_name[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0mdb_subnet_group_name[0m[0m                  = (known after apply)
+      [32m+[0m [0m[1m[0mdbi_resource_id[0m[0m                       = (known after apply)
+      [32m+[0m [0m[1m[0mendpoint[0m[0m                              = (known after apply)
+      [32m+[0m [0m[1m[0mengine[0m[0m                                = "aurora-postgresql"
+      [32m+[0m [0m[1m[0mengine_version[0m[0m                        = "14.3"
+      [32m+[0m [0m[1m[0mengine_version_actual[0m[0m                 = (known after apply)
+      [32m+[0m [0m[1m[0mid[0m[0m                                    = (known after apply)
+      [32m+[0m [0m[1m[0midentifier[0m[0m                            = "servian-tech-challenge-db-1"
+      [32m+[0m [0m[1m[0midentifier_prefix[0m[0m                     = (known after apply)
+      [32m+[0m [0m[1m[0minstance_class[0m[0m                        = "db.t3.medium"
+      [32m+[0m [0m[1m[0mkms_key_id[0m[0m                            = (known after apply)
+      [32m+[0m [0m[1m[0mmonitoring_interval[0m[0m                   = 0
+      [32m+[0m [0m[1m[0mmonitoring_role_arn[0m[0m                   = (known after apply)
+      [32m+[0m [0m[1m[0mperformance_insights_enabled[0m[0m          = (known after apply)
+      [32m+[0m [0m[1m[0mperformance_insights_kms_key_id[0m[0m       = (known after apply)
+      [32m+[0m [0m[1m[0mperformance_insights_retention_period[0m[0m = (known after apply)
+      [32m+[0m [0m[1m[0mport[0m[0m                                  = (known after apply)
+      [32m+[0m [0m[1m[0mpreferred_backup_window[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0mpreferred_maintenance_window[0m[0m          = (known after apply)
+      [32m+[0m [0m[1m[0mpromotion_tier[0m[0m                        = 0
+      [32m+[0m [0m[1m[0mpublicly_accessible[0m[0m                   = false
+      [32m+[0m [0m[1m[0mstorage_encrypted[0m[0m                     = (known after apply)
+      [32m+[0m [0m[1m[0mtags_all[0m[0m                              = (known after apply)
+      [32m+[0m [0m[1m[0mwriter[0m[0m                                = (known after apply)
+    }
+
+[1m  # aws_security_group.app[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_security_group" "app" {
+      [32m+[0m [0m[1m[0marn[0m[0m                    = (known after apply)
+      [32m+[0m [0m[1m[0mdescription[0m[0m            = "Allow connections from the load balancer"
+      [32m+[0m [0m[1m[0megress[0m[0m                 = [
+          [32m+[0m [0m{
+              [32m+[0m [0mcidr_blocks      = [
+                  [32m+[0m [0m"0.0.0.0/0",
+                ]
+              [32m+[0m [0mdescription      = "allowing internet access"
+              [32m+[0m [0mfrom_port        = 0
+              [32m+[0m [0mipv6_cidr_blocks = []
+              [32m+[0m [0mprefix_list_ids  = []
+              [32m+[0m [0mprotocol         = "-1"
+              [32m+[0m [0msecurity_groups  = []
+              [32m+[0m [0mself             = false
+              [32m+[0m [0mto_port          = 0
+            },
+        ]
+      [32m+[0m [0m[1m[0mid[0m[0m                     = (known after apply)
+      [32m+[0m [0m[1m[0mingress[0m[0m                = [
+          [32m+[0m [0m{
+              [32m+[0m [0mcidr_blocks      = []
+              [32m+[0m [0mdescription      = "port 3000 from load balancer"
+              [32m+[0m [0mfrom_port        = 3000
+              [32m+[0m [0mipv6_cidr_blocks = []
+              [32m+[0m [0mprefix_list_ids  = []
+              [32m+[0m [0mprotocol         = "tcp"
+              [32m+[0m [0msecurity_groups  = (known after apply)
+              [32m+[0m [0mself             = false
+              [32m+[0m [0mto_port          = 3000
+            },
+        ]
+      [32m+[0m [0m[1m[0mname[0m[0m                   = "servian-tech-challenge-server"
+      [32m+[0m [0m[1m[0mname_prefix[0m[0m            = (known after apply)
+      [32m+[0m [0m[1m[0mowner_id[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0mrevoke_rules_on_delete[0m[0m = false
+      [32m+[0m [0m[1m[0mtags[0m[0m                   = {
+          [32m+[0m [0m"Name" = "servian-tech-challenge-server"
+        }
+      [32m+[0m [0m[1m[0mtags_all[0m[0m               = {
+          [32m+[0m [0m"Name" = "servian-tech-challenge-server"
+        }
+      [32m+[0m [0m[1m[0mvpc_id[0m[0m                 = "vpc-06053c2093a10c09c"
+    }
+
+[1m  # aws_security_group.db[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_security_group" "db" {
+      [32m+[0m [0m[1m[0marn[0m[0m                    = (known after apply)
+      [32m+[0m [0m[1m[0mdescription[0m[0m            = "Allow connections from server to db on port 5432"
+      [32m+[0m [0m[1m[0megress[0m[0m                 = (known after apply)
+      [32m+[0m [0m[1m[0mid[0m[0m                     = (known after apply)
+      [32m+[0m [0m[1m[0mingress[0m[0m                = [
+          [32m+[0m [0m{
+              [32m+[0m [0mcidr_blocks      = []
+              [32m+[0m [0mdescription      = "port 5432 postgres"
+              [32m+[0m [0mfrom_port        = 5432
+              [32m+[0m [0mipv6_cidr_blocks = []
+              [32m+[0m [0mprefix_list_ids  = []
+              [32m+[0m [0mprotocol         = "tcp"
+              [32m+[0m [0msecurity_groups  = (known after apply)
+              [32m+[0m [0mself             = false
+              [32m+[0m [0mto_port          = 5432
+            },
+        ]
+      [32m+[0m [0m[1m[0mname[0m[0m                   = "servian-tech-challenge-db"
+      [32m+[0m [0m[1m[0mname_prefix[0m[0m            = (known after apply)
+      [32m+[0m [0m[1m[0mowner_id[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0mrevoke_rules_on_delete[0m[0m = false
+      [32m+[0m [0m[1m[0mtags[0m[0m                   = {
+          [32m+[0m [0m"Name" = "servian-tech-challenge-db"
+        }
+      [32m+[0m [0m[1m[0mtags_all[0m[0m               = {
+          [32m+[0m [0m"Name" = "servian-tech-challenge-db"
+        }
+      [32m+[0m [0m[1m[0mvpc_id[0m[0m                 = "vpc-06053c2093a10c09c"
+    }
+
+[1m  # aws_security_group.lb_sg[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_security_group" "lb_sg" {
+      [32m+[0m [0m[1m[0marn[0m[0m                    = (known after apply)
+      [32m+[0m [0m[1m[0mdescription[0m[0m            = "Allow connections from internet"
+      [32m+[0m [0m[1m[0megress[0m[0m                 = [
+          [32m+[0m [0m{
+              [32m+[0m [0mcidr_blocks      = [
+                  [32m+[0m [0m"172.31.0.0/16",
+                ]
+              [32m+[0m [0mdescription      = "allowing healthcheck access"
+              [32m+[0m [0mfrom_port        = 3000
+              [32m+[0m [0mipv6_cidr_blocks = []
+              [32m+[0m [0mprefix_list_ids  = []
+              [32m+[0m [0mprotocol         = "tcp"
+              [32m+[0m [0msecurity_groups  = []
+              [32m+[0m [0mself             = false
+              [32m+[0m [0mto_port          = 3000
+            },
+        ]
+      [32m+[0m [0m[1m[0mid[0m[0m                     = (known after apply)
+      [32m+[0m [0m[1m[0mingress[0m[0m                = [
+          [32m+[0m [0m{
+              [32m+[0m [0mcidr_blocks      = [
+                  [32m+[0m [0m"0.0.0.0/0",
+                ]
+              [32m+[0m [0mdescription      = "port 443 from internet"
+              [32m+[0m [0mfrom_port        = 443
+              [32m+[0m [0mipv6_cidr_blocks = []
+              [32m+[0m [0mprefix_list_ids  = []
+              [32m+[0m [0mprotocol         = "tcp"
+              [32m+[0m [0msecurity_groups  = []
+              [32m+[0m [0mself             = false
+              [32m+[0m [0mto_port          = 443
+            },
+          [32m+[0m [0m{
+              [32m+[0m [0mcidr_blocks      = [
+                  [32m+[0m [0m"0.0.0.0/0",
+                ]
+              [32m+[0m [0mdescription      = "port 80 from internet"
+              [32m+[0m [0mfrom_port        = 80
+              [32m+[0m [0mipv6_cidr_blocks = []
+              [32m+[0m [0mprefix_list_ids  = []
+              [32m+[0m [0mprotocol         = "tcp"
+              [32m+[0m [0msecurity_groups  = []
+              [32m+[0m [0mself             = false
+              [32m+[0m [0mto_port          = 80
+            },
+        ]
+      [32m+[0m [0m[1m[0mname[0m[0m                   = "servian-tech-challenge-lb-sg"
+      [32m+[0m [0m[1m[0mname_prefix[0m[0m            = (known after apply)
+      [32m+[0m [0m[1m[0mowner_id[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0mrevoke_rules_on_delete[0m[0m = false
+      [32m+[0m [0m[1m[0mtags[0m[0m                   = {
+          [32m+[0m [0m"Name" = "servian-tech-challenge-lb-sg"
+        }
+      [32m+[0m [0m[1m[0mtags_all[0m[0m               = {
+          [32m+[0m [0m"Name" = "servian-tech-challenge-lb-sg"
+        }
+      [32m+[0m [0m[1m[0mvpc_id[0m[0m                 = "vpc-06053c2093a10c09c"
+    }
+
+[0m[1mPlan:[0m 14 to add, 0 to change, 0 to destroy.
+[0m[0m
+[1mChanges to Outputs:[0m[0m
+  [32m+[0m [0m[1m[0malb_dns_name[0m[0m           = (known after apply)
+  [32m+[0m [0m[1m[0mecs_cluster_name[0m[0m       = "servian-tech-challenge-app"
+  [32m+[0m [0m[1m[0menvironment_name[0m[0m       = "servian-tech-challenge"
+  [32m+[0m [0m[1m[0mstandalone_task_sg[0m[0m     = (known after apply)
+  [32m+[0m [0m[1m[0mstandalone_task_subnet[0m[0m = "subnet-0cc3ba82e07e833ac"
+[90m
+─────────────────────────────────────────────────────────────────────────────[0m
+
+Saved the plan to: terraform.plan
+
+To perform exactly these actions, run the following command to apply:
+    terraform apply "terraform.plan"
+[8mha:////4N+mHsBeYl5wxadwTqvWbcj24apiv4EPApLrejLBm/bUAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+Ad3NsHm+AAAA[0m[Pipeline] }
+[8mha:////4FHbHJ4cylPFwMNjqKFf4P2PvnwCPtcg93J5BwEpK8FjAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8JP5Su+AAAA[0m[Pipeline] // stage
+[8mha:////4NezR7Q0FWOVAytVlB3rcTQhgyRRC0xeDruwBazg0epRAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIMGCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WXb7j/P6g1mJwqBwgAAAA==[0m[Pipeline] stage
+[8mha:////4PQ1hdgO7l+dhVVtE862lVOgNNJeLSU2KWK/33ay7cW9AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (Apply)
+[8mha:////4CGntQ7YdWqPqh1EXDm0dwJAqvaPhgn589cI4S+M5cDLAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] sh
++ make apply
+docker-compose run terraform apply terraform.plan
+[0m[1maws_cloudwatch_log_group.default: Creating...[0m[0m
+[0m[1maws_lb_target_group.app: Creating...[0m[0m
+[0m[1maws_iam_role.ecs_tasks_execution_role: Creating...[0m[0m
+[0m[1maws_ecs_cluster.app: Creating...[0m[0m
+[0m[1maws_security_group.lb_sg: Creating...[0m[0m
+[0m[1maws_cloudwatch_log_group.default: Creation complete after 0s [id=/ecs/servian-tech-challenge][0m
+[0m[1maws_lb_target_group.app: Creation complete after 1s [id=arn:aws:elasticloadbalancing:ap-southeast-2:026177603675:targetgroup/servian-tech-challenge-tg/1716e16a8feef2d7][0m
+[0m[1maws_security_group.lb_sg: Creation complete after 2s [id=sg-003d90b8569aae986][0m
+[0m[1maws_security_group.app: Creating...[0m[0m
+[0m[1maws_lb.app: Creating...[0m[0m
+[0m[1maws_security_group.app: Creation complete after 2s [id=sg-0590c502f036e894c][0m
+[0m[1maws_security_group.db: Creating...[0m[0m
+[0m[1maws_iam_role.ecs_tasks_execution_role: Creation complete after 4s [id=servian-tech-challenge-ecs-task-execution-role][0m
+[0m[1maws_iam_role_policy_attachment.ecs_tasks_execution_role: Creating...[0m[0m
+[0m[1maws_security_group.db: Creation complete after 1s [id=sg-08e6d2a737a7e2076][0m
+[0m[1maws_rds_cluster.postgres: Creating...[0m[0m
+[0m[1maws_iam_role_policy_attachment.ecs_tasks_execution_role: Creation complete after 2s [id=servian-tech-challenge-ecs-task-execution-role-20220712040506792000000001][0m
+[0m[1maws_ecs_cluster.app: Still creating... [10s elapsed][0m[0m
+[0m[1maws_ecs_cluster.app: Creation complete after 10s [id=arn:aws:ecs:ap-southeast-2:026177603675:cluster/servian-tech-challenge-app][0m
+[0m[1maws_lb.app: Still creating... [10s elapsed][0m[0m
+[0m[1maws_rds_cluster.postgres: Still creating... [10s elapsed][0m[0m
+[0m[1maws_lb.app: Still creating... [20s elapsed][0m[0m
+[0m[1maws_rds_cluster.postgres: Still creating... [20s elapsed][0m[0m
+[0m[1maws_lb.app: Still creating... [30s elapsed][0m[0m
+[0m[1maws_rds_cluster.postgres: Still creating... [30s elapsed][0m[0m
+[0m[1maws_lb.app: Still creating... [40s elapsed][0m[0m
+[0m[1maws_rds_cluster.postgres: Still creating... [40s elapsed][0m[0m
+[0m[1maws_lb.app: Still creating... [50s elapsed][0m[0m
+[0m[1maws_rds_cluster.postgres: Still creating... [50s elapsed][0m[0m
+[0m[1maws_rds_cluster.postgres: Creation complete after 52s [id=servian-tech-challenge-db][0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Creating...[0m[0m
+[0m[1maws_ecs_task_definition.app: Creating...[0m[0m
+[0m[1maws_ecs_task_definition.app: Creation complete after 1s [id=servian-tech-challenge][0m
+[0m[1maws_ecs_service.app: Creating...[0m[0m
+[0m[1maws_lb.app: Still creating... [1m0s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [10s elapsed][0m[0m
+[0m[1maws_ecs_service.app: Still creating... [10s elapsed][0m[0m
+[0m[1maws_lb.app: Still creating... [1m10s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [20s elapsed][0m[0m
+[0m[1maws_ecs_service.app: Still creating... [20s elapsed][0m[0m
+[0m[1maws_lb.app: Still creating... [1m20s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [30s elapsed][0m[0m
+[0m[1maws_ecs_service.app: Still creating... [30s elapsed][0m[0m
+[0m[1maws_lb.app: Still creating... [1m30s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [40s elapsed][0m[0m
+[0m[1maws_ecs_service.app: Still creating... [40s elapsed][0m[0m
+[0m[1maws_lb.app: Still creating... [1m40s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [50s elapsed][0m[0m
+[0m[1maws_ecs_service.app: Still creating... [50s elapsed][0m[0m
+[0m[1maws_lb.app: Still creating... [1m50s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [1m0s elapsed][0m[0m
+[0m[1maws_ecs_service.app: Still creating... [1m0s elapsed][0m[0m
+[0m[1maws_lb.app: Still creating... [2m0s elapsed][0m[0m
+[0m[1maws_lb.app: Creation complete after 2m2s [id=arn:aws:elasticloadbalancing:ap-southeast-2:026177603675:loadbalancer/app/servian-tech-challenge-lb/063ecc8248f50012][0m
+[0m[1maws_lb_listener.app_80: Creating...[0m[0m
+[0m[1maws_lb_listener.app_80: Creation complete after 0s [id=arn:aws:elasticloadbalancing:ap-southeast-2:026177603675:listener/app/servian-tech-challenge-lb/063ecc8248f50012/2f4aa29c4dcdb422][0m
+[0m[1maws_ecs_service.app: Creation complete after 1m8s [id=arn:aws:ecs:ap-southeast-2:026177603675:service/servian-tech-challenge-app/app][0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [1m10s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [1m20s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [1m30s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [1m40s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [1m50s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [2m0s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [2m10s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [2m20s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [2m30s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [2m40s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [2m50s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [3m0s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [3m10s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [3m20s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [3m30s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [3m40s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [3m50s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [4m0s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [4m10s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [4m20s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [4m30s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [4m40s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [4m50s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [5m0s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [5m10s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Still creating... [5m20s elapsed][0m[0m
+[0m[1maws_rds_cluster_instance.cluster_instances: Creation complete after 5m25s [id=servian-tech-challenge-db-1][0m
+[0m[1m[32m
+Apply complete! Resources: 14 added, 0 changed, 0 destroyed.
+[0m[0m[1m[32m
+Outputs:
+
+[0malb_dns_name = "servian-tech-challenge-lb-386129373.ap-southeast-2.elb.amazonaws.com"
+ecs_cluster_name = "servian-tech-challenge-app"
+environment_name = "servian-tech-challenge"
+standalone_task_sg = "sg-0590c502f036e894c"
+standalone_task_subnet = "subnet-0cc3ba82e07e833ac"
+[8mha:////4CPDobJdp+oxRY5z4N0XOr4QLMNkZNBb71G7YYB4DdoYAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGMKkS1vgAAAA==[0m[Pipeline] }
+[8mha:////4P2YQpDYGd2fz8e2VAmp9a+/6f/J1SM4AsDHuyUPyjdgAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9mQDtDvgAAAA==[0m[Pipeline] // stage
+[8mha:////4OWvl40wcT2+RARGbQUnSL+rLdv8A4ig8ezeHmO320vMAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUFWJCTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFs9tl2zedZvQFqHHg6wgAAAA==[0m[Pipeline] stage
+[8mha:////4GWLEVyr94EW+W4gbR+Tx3aZ6BxVqdhDv6c5/hw3HNYCAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] { (UpdateDB)
+[8mha:////4ITB2FFlM+aRqnEWvKwu8t0a4U1oJ09X90t9eZoLG2nnAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3favo5XL4AAAA=[0m[Pipeline] sh
++ make update_db
+cd infrastructure && ./ecs_task_run.sh
+
+[0m[1mInitializing the backend...[0m
+
+[0m[1mInitializing provider plugins...[0m
+- Reusing previous version of hashicorp/aws from the dependency lock file
+- Using previously-installed hashicorp/aws v3.75.2
+
+[0m[1m[32mTerraform has been successfully initialized![0m[32m[0m
+[0m[32m
+You may now begin working with Terraform. Try running "terraform plan" to see
+any changes that are required for your infrastructure. All Terraform commands
+should now work.
+
+If you ever set or change modules or backend configuration for Terraform,
+rerun this command to reinitialize your working directory. If you forget, other
+commands will detect it and remind you to do so if necessary.[0m
+{
+    "failures": [], 
+    "tasks": [
+        {
+            "availabilityZone": "ap-southeast-2a", 
+            "group": "family:servian-tech-challenge", 
+            "attachments": [
+                {
+                    "status": "PRECREATED", 
+                    "type": "ElasticNetworkInterface", 
+                    "id": "2da16193-e0c1-46ac-beff-d742015c1598", 
+                    "details": [
+                        {
+                            "name": "subnetId", 
+                            "value": "subnet-0cc3ba82e07e833ac"
+                        }
+                    ]
+                }
+            ], 
+            "tags": [], 
+            "overrides": {
+                "inferenceAcceleratorOverrides": [], 
+                "containerOverrides": [
+                    {
+                        "command": [
+                            "updatedb", 
+                            "-s"
+                        ], 
+                        "name": "app"
+                    }
+                ]
+            }, 
+            "memory": "512", 
+            "lastStatus": "PROVISIONING", 
+            "createdAt": 1657599112.123, 
+            "taskArn": "arn:aws:ecs:ap-southeast-2:026177603675:task/servian-tech-challenge-app/985829910bd849f8b715940b7231f124", 
+            "launchType": "FARGATE", 
+            "clusterArn": "arn:aws:ecs:ap-southeast-2:026177603675:cluster/servian-tech-challenge-app", 
+            "version": 1, 
+            "desiredStatus": "RUNNING", 
+            "platformVersion": "1.4.0", 
+            "attributes": [
+                {
+                    "name": "ecs.cpu-architecture", 
+                    "value": "x86_64"
+                }
+            ], 
+            "taskDefinitionArn": "arn:aws:ecs:ap-southeast-2:026177603675:task-definition/servian-tech-challenge:6", 
+            "cpu": "256", 
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:ap-southeast-2:026177603675:container/servian-tech-challenge-app/985829910bd849f8b715940b7231f124/8e6253b4-fdf4-492f-b893-fb4a726d91d0", 
+                    "taskArn": "arn:aws:ecs:ap-southeast-2:026177603675:task/servian-tech-challenge-app/985829910bd849f8b715940b7231f124", 
+                    "name": "app", 
+                    "image": "servian/techchallengeapp:latest", 
+                    "lastStatus": "PENDING", 
+                    "memory": "256", 
+                    "cpu": "128", 
+                    "networkInterfaces": []
+                }
+            ]
+        }
+    ]
+}
+[8mha:////4Dc+Boj8Z7GTeL2FI1LwpilgtSO4ac5+vg7vjcPrWppbAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bij33Ma+AAAA[0m[Pipeline] }
+[8mha:////4BEWUHRX44HomR39DsDeky7slKwDHhtRUZtd65zMamjXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbNzd1iZS+AAAA[0m[Pipeline] // stage
+[8mha:////4LVzEyXVJwIocsHeDx/PhRg4Sea5wRvL51zl6QQTSvZjAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w8CoUYnvgAAAA==[0m[Pipeline] }
+[8mha:////4GhBUGvA8JMb1YGKt3hsTFMbXnPNrEz6z8oTD8qPFo1oAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8AMUIdm74AAAA=[0m[Pipeline] // withEnv
+[8mha:////4K1TjJSI/LyoGqVfWSAJgSOUL1xcNFdIKCQMIdrKLi0nAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRSoOEqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZH3Lt6w9HZS/0vgAAAA==[0m[Pipeline] }
+[8mha:////4Ld8dYsHjOqMqSuOX70EhNTu9d4p0Krf7N652ezqtmsQAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Idd29wF0hnRIvgAAAA==[0m[Pipeline] // withCredentials
+[8mha:////4AUph4luAbwnOafKgMiu7v19xHsip9uXvjyZk/siTymeAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIhEh2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOVhn6uuP4i41TO+AAAA[0m[Pipeline] }
+[8mha:////4LegDQ/K5wtQWzQ2DwnAfTpHUAkt/zmAkwDQpbPnHeQmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIhEh2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOWhzlXvP7tbjo++AAAA[0m[Pipeline] // withEnv
+[8mha:////4Hw4forS+HA0/qgFILQ9fEBrr7I00cAXmW/a46RIH4iBAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6Ikhs04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAVulI+L0AAAA=[0m[Pipeline] }
+[8mha:////4DMrQ4Te0r5CzT8+qdV0XTUdno3H7AaJ/RKg4NvIIcDxAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU2DlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyfSnIyg9FVUxbvQAAAA==[0m[Pipeline] // node
+[8mha:////4OlD7EJX9M3l/WhGx6kJytlaO8ELqwa4V7EzFLU6pWvpAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6Ikhs04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8Aw7lrnr0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
