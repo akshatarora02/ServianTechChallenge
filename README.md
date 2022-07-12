@@ -21,9 +21,13 @@ This diagram shows a highly available infrastructure for the Servian app. Defaul
 Prerequisites:
 
 •	Docker
+
 •	Terraform
+
 •	AWS CLI
+
 •	Docker-compose
+
 
 AWS Authentication:
 
@@ -34,9 +38,10 @@ S3 Bucket for backend initialisation:
 A bucket created for backend initialisation, storing the .tfstate file.
 After creating the bucket, enter the name of bucket in config.tf file in the “bucket” key section.
 
- Export environment variables:
+Export environment variables:
 
 export TF_VAR_vpc_id=<value>
+ 
 export TF_VAR_postgresql_password=<value>
 
 Run Terraform:
@@ -85,6 +90,9 @@ I have restricted the access to Jenkins server, hence, the log file.
 5.	Work that can be done additionally
 
 •	Creating a CNAME and using it as a contact point instead of alb dns name. 
+ 
 •	Adding ACM certificate for HTTPS support
+ 
 •	Exclusive VPC for application
+ 
 •	Jenkins CI/CD jobs
