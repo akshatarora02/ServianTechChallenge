@@ -1,33 +1,90 @@
-# Servian DevOps Tech Challenge - Tech Challenge App
+# ServianTechChallenge
 
-[![Build Status][circleci-badge]][circleci]
-[![Release][release-badge]][release]
-[![GoReportCard][report-badge]][report]
-[![License][license-badge]][license]
 
-[circleci-badge]: https://circleci.com/gh/servian/TechChallengeApp.svg?style=shield&circle-token=8dfd03c6c2a5dc5555e2f1a84c36e33bc58ad0aa
-[circleci]: https://circleci.com/gh/servian/TechChallengeApp
-[release-badge]: http://img.shields.io/github/release/servian/TechChallengeApp/all.svg?style=flat
-[release]:https://github.com/Servian/TechChallengeApp/releases
-[report-badge]: https://goreportcard.com/badge/github.com/Servian/TechChallengeApp
-[report]: https://goreportcard.com/report/github.com/Servian/TechChallengeApp
-[license-badge]: https://img.shields.io/github/license/Servian/TechChallengeApp.svg?style=flat
-[license]: https://github.com/Servian/TechChallengeApp/license
 
-## Overview
+1.	Overview
 
-This is the Servian DevOps Tech challenge. It uses a simple application to help measure a candidate's technical capability and fit with Servian. The application itself is a simple GTD Golang application that is backed by a Postgres database.
+This project is made as a requirement for Servian Technical Challenge. 
+I have deployed the application using AWS cloud by creating infrastructure from scratch. For implementing IaC, my experience lies in creating cloudformation templates using python troposphere library for EKS Cluster (I can explain an alternative approach if requested) but for learning purposes I chose terraform for this project and used ECS to deploy container. For deployment of infrastructure, I created a Jenkins pipeline and separate Jenkins jobs for CI and CD.
 
-Servian provides the Tech Challenge to potential candidates, which focuses on deploying this application into a cloud environment of choice.
 
-More details about the application can be found in the [document folder](doc/readme.md)
+2.	High level design diagram
 
-## Taking the challenge
+![alt text](https://github.com/akshatarora02/ServianTechChallenge/blob/main/servian-challenge-akshat.jpg?raw=true)
 
-For more information about taking the challenge and joining Servians's amazing team, please head over to our [recruitment page](https://www.servian.com/careers/) and apply there. Our recruitment team will reach out to you about the details of the test and be able to answer any questions you have about Servian or the test itself.
 
-Information about the assessment is available in the [assessment.md file](ASSESSMENT.md)
+This diagram shows a highly available infrastructure for the Servian app. Default VPC and public subnets were used for deployment of the app. The database instance was only launched in 1 AZ during implementation as it is enough for a small application but for high availability, this can be made multi-AZ.
 
-## Found an issue?
 
-If you've found an issue with the application, the documentation, or anything else, we are happy to take contributions. Please raise an issue in the [github repository](https://github.com/Servian/TechChallengeApp/issues) and read through the contribution rules found the [CONTRIBUTING.md](CONTRIBUTING.md) file for the details.
+3.	Deployment Procedure
+
+Prerequisites:
+
+•	Docker
+•	Terraform
+•	AWS CLI
+•	Docker-compose
+
+AWS Authentication:
+
+Authentication of AWS account was done by exporting IAM User access key ID and secret access key. This can be done by running “aws configure” and entering the id and key. Default region was set to ap-southeast-2. 
+
+S3 Bucket for backend initialisation:
+
+A bucket created for backend initialisation, storing the .tfstate file.
+After creating the bucket, enter the name of bucket in config.tf file in the “bucket” key section.
+
+ Export environment variables:
+
+export TF_VAR_vpc_id=<value>
+export TF_VAR_postgresql_password=<value>
+
+Run Terraform:
+
+make init
+
+make plan
+
+make apply
+
+Run these commands one by one and note the alb_dns_name returned after last command. It can then be accessed by a browser. Finally, run the last command:
+
+make update_db
+
+this is a standalone script used to fill database with dummy data. This could also be deployed as a lambda script
+
+To destroy the stack, run the following script:
+
+make destroy
+
+4.	Jenkins
+
+
+I created a Jenkins server and installed aws, terraform, docker and docker-compose on it manually. This process can be automated by creating a user-data script.
+Jenkinsfile placed in this repo is being used by the Jenkins pipeline to automate the above procedure. 
+
+AWS Credentials were added using the cloudbees aws plugin and variables that were to be exported were added as environment variables.
+
+The job log is present in this repository in the jenkinslog file.
+
+Output after job run:
+
+ ![alt text](https://github.com/akshatarora02/ServianTechChallenge/blob/main/output.png?raw=true)
+
+After this, A CI job can be created which will build the app image and tag it and push it to a image repository like ECR/Dockerhub/JFrog. 
+
+A separate CD job will then pull the image and deploy it on the ECS container.
+
+We would then have latest changes available to us.
+
+CI/CD jobs have not yet been implemented.
+
+I have restricted the access to Jenkins server, hence, the log file. 
+
+
+5.	Work that can be done additionally
+
+•	Creating a CNAME and using it as a contact point instead of alb dns name. 
+•	Adding ACM certificate for HTTPS support
+•	Exclusive VPC for application
+•	Jenkins CI/CD jobs
